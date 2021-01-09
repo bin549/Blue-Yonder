@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Bed.png" type="Texture" id=1]
+[ext_resource path="res://player.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="player" type="Sprite" parent="YSort"]
+position = Vector2( 80.1475, 148.735 )
+texture = ExtResource( 2 )
+
+[node name="Bed" type="Sprite" parent="YSort"]
+position = Vector2( 58.6953, 147.229 )
+texture = ExtResource( 1 )
